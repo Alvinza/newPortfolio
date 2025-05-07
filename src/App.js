@@ -6,6 +6,8 @@ import Projects from "./components/Projects";
 import Achievements from "./components/Achievements";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
   const [darkMode, setDarkMode] = useState(() => {
@@ -33,6 +35,7 @@ const App = () => {
       <Achievements />
       <Contact />
       <Footer />
+    <ToastContainer />
     </div>
   );
 };
