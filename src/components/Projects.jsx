@@ -18,7 +18,7 @@ const projectList = [
   {
     name: "Modeling Agency",
     image: projectFour,
-    live: "https://d-a-models.onrender.com/",
+    live: "https://d-a-models.vercel.app/",
     github: "https://github.com/Alvinza/D-A-Models",
     tech: "React, Node.js, MongoDB",
     challenge:
