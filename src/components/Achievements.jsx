@@ -1,7 +1,7 @@
 import React from "react";
 import { FaTrophy, FaExternalLinkAlt } from "react-icons/fa";
 import myCertificate from "../assets/certificate.png";
-import udemy from "../assets/udemy.png";
+import udemy from "../assets/udemy.png"; // udemy Certificate
 
 const Achievements = () => {
   // Certificates data
@@ -96,6 +96,8 @@ const Achievements = () => {
                     </a>
                   </div>
                 </div>
+
+                {/* Certificate details */}
                 <div className="p-6">
                   <h4 className="text-xl font-semibold mb-3 text-white">
                     {cert.title}
