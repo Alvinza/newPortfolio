@@ -4,6 +4,7 @@ import myCertificate from "../assets/certificate.png";
 import udemy from "../assets/udemy.png";
 
 const Achievements = () => {
+  // Certificates data
   const certificates = [
     {
       id: 1,
@@ -22,7 +23,8 @@ const Achievements = () => {
       link: "https://www.hyperiondev.com/portfolio/108878/",
     },
   ];
-
+  
+   // Professional accomplishments data
   const accomplishments = [
     {
       id: 1,
@@ -133,6 +135,7 @@ const Achievements = () => {
           </div>
         </div>
 
+        {/* Scroll down arrow */}
         <div className="animate-bounce mt-12 hidden md:block text-center">
           <a
             href="#contact"
