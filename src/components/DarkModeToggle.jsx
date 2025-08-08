@@ -1,4 +1,3 @@
-// DarkModeToggle.jsx
 import React from "react";
 import { FaSun, FaMoon } from "react-icons/fa";
 
@@ -19,3 +18,4 @@ const DarkModeToggle = ({ darkMode, toggleDark }) => {
 };
 
 export default DarkModeToggle;
+
