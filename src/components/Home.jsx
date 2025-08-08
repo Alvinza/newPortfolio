@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import profile from "../assets/about_profile.png";
+import { FaGithub, FaLinkedin } from "react-icons/fa"; // Socail media Icons
+import profile from "../assets/about_profile.png"; // Profile picture
 
+// Custom hook to create typing animation effect
 const useTypingEffect = (text, duration = 150) => {
   const [displayedText, setDisplayedText] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -39,6 +40,7 @@ const Home = () => {
           className="w-64 h-64 md:w-72 md:h-72 rounded-full mb-4 border-2 border-blue-600 dark:border-blue-400 mx-auto"
         />
 
+        {/* Typing effect for name */}
         <h1 className="text-4xl md:text-5xl font-bold mb-3 text-gray-900 dark:text-white">
           I'm{" "}
           <span className="text-blue-600 dark:text-blue-400">
@@ -48,7 +50,9 @@ const Home = () => {
             <span className="animate-pulse">|</span>
           )}
         </h1>
+        
 
+        {/* Typing effect for title */}
         <h2 className="text-2xl md:text-3xl font-medium text-gray-700 dark:text-gray-300 mb-4">
           {displayedTitle}
           {displayedTitle.length < fullTitle.length && (
@@ -63,6 +67,7 @@ const Home = () => {
           elegant solutions.
         </p>
 
+          {/* Social links */}
         <div className="flex flex-wrap justify-center gap-4 mb-10">
           <a
             href="https://github.com/Alvinza"
@@ -83,6 +88,7 @@ const Home = () => {
           </a>
         </div>
 
+        {/* Scroll-down arrow */}
         <div className="animate-bounce mt-12 hidden md:block">
           <a
             href="#about"
