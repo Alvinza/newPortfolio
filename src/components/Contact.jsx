@@ -14,11 +14,13 @@ import "react-toastify/dist/ReactToastify.css";
 import { motion } from "framer-motion";
 
 const Contact = () => {
+  // Form state variables
   const [result, setResult] = useState("");
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
+  // handel form submission
   const handleSubmit = async (event) => {
     event.preventDefault();
     setResult("Sending....");
