@@ -1,7 +1,8 @@
 import React from "react";
-import resume from "../assets/Alvin-Zondi-CV.pdf";
-import { FaDownload } from "react-icons/fa";
+import resume from "../assets/Alvin-Zondi-CV.pdf"; // Resume File
+import { FaDownload } from "react-icons/fa"; // Icon
 
+// About section of the portfolio
 const About = () => (
   <section
     id="about"
@@ -21,6 +22,7 @@ const About = () => (
           experiences.
         </p>
 
+        {/* Skills list */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mt-8">
           <div className="text-left">
             <h3 className="text-xl font-semibold mb-3 text-black dark:text-white">
@@ -57,7 +59,8 @@ const About = () => (
       >
         <FaDownload /> Download CV
       </a>
-
+      
+      {/* Scroll-down arrow */}
       <div className="animate-bounce mt-12 hidden md:block container">
         <a
           href="#projects"
