@@ -5,6 +5,16 @@ import projectThree from "../assets/project_3.png";
 import projectFour from "../assets/project_4.png";
 import projectFive from "../assets/project_5.png";
 
+/**
+ * List of projects displayed in the portfolio.
+ * Each project contains:
+ * - name: Project title
+ * - image: Preview image
+ * - live: URL to live site
+ * - github: URL to source code
+ * - tech: Technologies used
+ * - challenge: Main challenge faced during development
+ */
 const projectList = [
   {
     name: "Beat Store",
@@ -53,27 +63,38 @@ const projectList = [
   },
 ];
 
+/**
+ * Projects Component
+ * Displays a grid of portfolio projects with:
+ * - Image previews (zoom effect on hover)
+ * - Tech stack & challenges (shown on hover overlay)
+ * - Links to Live site & GitHub repository
+ */
 const Projects = () => (
   <section
     id="projects"
     className="min-h-screen px-4 py-12 bg-gray-100 dark:bg-gray-900 transition-colors duration-300"
   >
+ 
     <h2 className="mt-5 text-3xl font-bold text-center mb-8 text-blue-600 dark:text-blue-400 transition-colors duration-300">
       Projects
     </h2>
 
+    {/* Projects Grid */}
     <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
       {projectList.map(({ name, image, live, github, tech, challenge }) => (
         <div
           key={name}
           className="bg-gray-800 border border-gray-700 rounded-lg p-4 overflow-hidden transition-colors duration-300"
         >
+          {/* Project Image with Hover Overlay */}
           <div className="relative overflow-hidden rounded-md mb-4 group">
             <img
               src={image}
               alt={`${name} preview`}
               className="w-full h-48 object-cover rounded-md transition-transform duration-300 group-hover:scale-110"
             />
+            {/* Overlay displaying tech stack & challenge */}
             <div className="absolute inset-0 bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center p-4 text-white">
               <p className="font-medium mb-2">
                 <span className="text-blue-400">Tech:</span> {tech}
@@ -83,9 +104,13 @@ const Projects = () => (
               </p>
             </div>
           </div>
+
+          {/* Project Title */}
           <h3 className="text-xl font-semibold text-white transition-colors duration-300">
             {name}
           </h3>
+
+          {/* Project Links */}
           <div className="flex gap-4 mt-2">
             <a
               href={live}
@@ -108,6 +133,7 @@ const Projects = () => (
       ))}
     </div>
 
+    {/* Scroll-down arrow */}
     <div className="animate-bounce mt-12 hidden md:block container mx-auto text-center">
       <a
         href="#achievements"
