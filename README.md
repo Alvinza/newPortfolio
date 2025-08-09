@@ -16,7 +16,7 @@ A modern, responsive single-page portfolio application showcasing my full-stack 
 
 ## 🚀 Live Demo
 
-[View Live Portfolio](https://alvinza.github.io/newPortfolio)
+[View Live Portfolio](https://new-portfolio-one-brown.vercel.app/)
 
 ## 🛠️ Technologies Used
 
