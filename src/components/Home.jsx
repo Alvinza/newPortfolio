@@ -10,8 +10,8 @@ const useTypingEffect = (text, duration = 150) => {
   useEffect(() => {
     if (currentIndex < text.length) {
       const timeoutId = setTimeout(() => {
-        setDisplayedText((prev) => prev + text[currentIndex]);
-        setCurrentIndex((prev) => prev + 1);
+        setDisplayedText((prev) => prev + text[currentIndex]); // Add next character
+        setCurrentIndex((prev) => prev + 1); // Move to next character
       }, duration);
 
       return () => clearTimeout(timeoutId);
@@ -25,8 +25,8 @@ const Home = () => {
   const fullName = "Alvin Zondi";
   const fullTitle = "Full Stack Developer";
 
-  const displayedName = useTypingEffect(fullName);
-  const displayedTitle = useTypingEffect(fullTitle, 100);
+  const displayedName = useTypingEffect(fullName); // Typing effect for name
+  const displayedTitle = useTypingEffect(fullTitle, 100); // Typing effect for title
 
   return (
     <section
