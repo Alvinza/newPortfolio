@@ -13,6 +13,7 @@ const About = () => (
         About Me
       </h2>
 
+      {/* About Card */}
       <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-md transition-colors duration-300 ">
         <p className=" dark:text-gray-300 text-lg mb-8 leading-relaxed text-black">
           I'm a Full Stack Developer who loves JavaScript, React, and clean
@@ -52,6 +53,7 @@ const About = () => (
         </div>
       </div>
 
+      {/* Download CV button */}
       <a
         href={resume}
         download="Alvin-Zondi-CV.pdf"
