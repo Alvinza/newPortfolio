@@ -1,6 +1,7 @@
 import React from "react";
 import { FaSun, FaMoon } from "react-icons/fa";
 
+// Button component to toggle between light and dark themes
 const DarkModeToggle = ({ darkMode, toggleDark }) => {
   return (
     <button
