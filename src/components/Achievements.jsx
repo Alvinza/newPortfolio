@@ -4,7 +4,7 @@ import myCertificate from "../assets/certificate.png";
 import udemy from "../assets/udemy.png"; // udemy Certificate
 
 const Achievements = () => {
-  // Certificates data
+  // Array of certificate data
   const certificates = [
     {
       id: 1,
@@ -24,7 +24,7 @@ const Achievements = () => {
     },
   ];
   
-   // Professional accomplishments data
+  // Array of accomplishments data
   const accomplishments = [
     {
       id: 1,
