@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import projectList from "../assets/projects/projectsData";
 
 const Projects = () => {
+  // State to track which project's challenge is currently being viewed
   const [selectedChallenge, setSelectedChallenge] = useState(null);
 
   return (
@@ -67,7 +68,7 @@ const Projects = () => {
         ))}
       </div>
 
-      {/* Challenge Modal */}
+      {/* Challenge Modal (appears when a project challenge is selected) */}
       {selectedChallenge && (
         <div className="fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center z-50 p-4">
           <div className="bg-gray-800 rounded-lg p-6 max-w-md w-full relative">
