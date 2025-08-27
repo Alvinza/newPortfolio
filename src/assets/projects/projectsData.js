@@ -10,9 +10,26 @@ const projectList = [
     image: projectTwo,
     live: "https://vinkid-beatz.onrender.com/",
     github: "https://github.com/Alvinza/vinkid-beatz",
-    tech: "React, Node.js, MongoDB, Express js, Tailwind CSS",
+    tech: "React, Node.js, MongoDB, Express js, Tailwind CSS, Cloudinary",
     challenge:
-      "I faced challenges implementing real-time audio previews while keeping the app performant. Initially, loading multiple audio files slowed the UI. I solved this by lazy-loading audio and using React state efficiently, only rendering necessary components when needed. I also handled edge cases like simultaneous playback and errors in fetching beats from the backend.",
+      "1. Problem: The music player caused lag when multiple beats played together. \n" +
+      "2. Solution: I fixed this by controlling audio with React state and \n" +
+      "   ensuring only one beat could play at a time. I also added error \n" +
+      "   handling for failed fetch requests. \n" +
+      "3. Learning: I learned how important proper state control and user \n" +
+      "   feedback are for a smooth experience. \n\n" +
+
+      "1. Problem: When I deployed on Render, refreshing gave a 404 error. \n" +
+      "2. Solution: I solved this by using a hash (#) in the URL \n" +
+      "   so the routes worked correctly on refresh. \n" +
+      "3. Learning: I learned how deployment platforms handle routing \n" +
+      "   differently from local development. \n\n" +
+
+      "1. Problem: Images and audio files were disappearing after some time. \n" +
+      "2. Solution: I used Cloudinary to host my media files reliably \n" +
+      "   and linked them to my app. \n" +
+      "3. Learning: I learned the importance of using a stable \n" +
+      "   media hosting service for production apps.",
   },
   {
     name: "Full-stack Hair salon",
@@ -21,25 +38,42 @@ const projectList = [
     github: "https://github.com/Alvinza/Hair-Salon-FullStack",
     tech: "React, Node.js, MongoDB, Express js, Tailwind CSS",
     challenge:
-      "Building the admin dashboard and handling backend posting with CORS were tricky. Initially, requests from the frontend were blocked, and form data wasn’t saving correctly. I debugged step by step, configuring CORS properly in the API, validating form inputs, and using Next.js API routes to securely create, update, and delete appointments. Implementing smooth animations with Framer Motion while keeping accessibility intact was another hurdle that required careful timing and aria-label management.",
+      "1. Problem: The booking form data wasn’t saving and CORS errors kept \n" +
+      "   blocking requests. \n" +
+      "2. Solution: I configured CORS properly in the backend and validated \n" +
+      "   inputs step by step. I also split the admin dashboard into smaller \n" +
+      "   components to make it easier to manage. \n" +
+      "3. Learning: I learned to debug step by step and stay patient when \n" +
+      "   solving backend and form issues.",
   },
   {
     name: "E-commerce",
     image: projectOne,
     live: "https://zara-store-1ctr.onrender.com/",
     github: "https://github.com/Alvinza/zara-store",
-    tech: "React, Node.js, Bootstrap",
+    tech: "React, Redux, Bootstrap",
     challenge:
-      "Optimizing API calls to reduce latency was a major challenge. The app initially fetched all products on every render, slowing performance. I solved it by using React hooks with caching, limiting re-renders, and leveraging Firebase queries efficiently. Implementing a persistent cart across page refreshes also required careful state management with localStorage.",
+      "1. Problem: The Redux state reset on refresh, making users log in \n" +
+      "   again and losing their cart items. \n" +
+      "2. Solution: I saved both the user info and cart in localStorage \n" +
+      "   and synced it with Redux when the app loads. I also handled \n" +
+      "   shipping options like free and express delivery. \n" +
+      "3. Learning: I learned how to persist state properly and improve \n" +
+      "   the overall shopping experience.",
   },
   {
     name: "Modeling Agency",
     image: projectFour,
     live: "https://d-a-models.vercel.app/",
     github: "https://github.com/Alvinza/D-A-Models",
-    tech: "React, Node.js, Tailwind CSS",
+    tech: "React, Tailwind CSS",
     challenge:
-      "Creating a smooth admin interface to upload and manage model profiles was tricky. I had to handle image uploads, validation, and storage securely while making the dashboard responsive. Step by step, I structured the backend with proper API routes, integrated Multer for file uploads, and added error handling to provide clear feedback to the admin.",
+      "1. Problem: The search function didn’t always return correct results, \n" +
+      "   especially with different typing speeds or cases. \n" +
+      "2. Solution: I normalized all text to lowercase and updated the \n" +
+      "   filtering logic to work in real-time without breaking the layout. \n" +
+      "3. Learning: I learned that small fixes and thorough testing can \n" +
+      "   make a big difference in usability.",
   },
   {
     name: "Coding Bootcamp",
@@ -48,7 +82,18 @@ const projectList = [
     github: "https://github.com/Alvinza/nextcode",
     tech: "React, Framer Motion, Tailwind CSS, Node.js",
     challenge:
-      "Designing interactive course modules with animations without affecting load times was challenging. I broke down each feature—lesson rendering, navigation between modules, and responsive animations—step by step. I used Framer Motion’s lazy animations, optimized image assets in Sanity, and carefully structured components to ensure smooth transitions and accessibility compliance.",
+      "1. Problem: Too many animations made the course pages heavy and \n" +
+      "   slowed down loading times. \n" +
+      "2. Solution: I split lessons into smaller components, used lazy \n" +
+      "   loading for assets, and kept animations simple but effective. \n" +
+      "3. Learning: I learned how to balance performance with design \n" +
+      "   so the app looks good but still runs fast. \n\n" +
+
+      "1. Problem: The testimonials section needed a way to switch users. \n" +
+      "2. Solution: I built a manual slider so users could move to the \n" +
+      "   next or previous testimonial. \n" +
+      "3. Learning: I learned how to manage UI state for custom sliders \n" +
+      "   and improve user interaction without extra libraries.",
   },
 ];
 
