@@ -1,6 +1,15 @@
 # Alvin Zondi Portfolio
 
 A modern, responsive single-page portfolio application built with **React** and styled using **Tailwind CSS**, showcasing my full-stack development skills and professional journey.
+## 🚀 Live Demo
+
+[View Live Portfolio](https://new-portfolio-one-brown.vercel.app/)
+
+## 📸 Screenshot
+
+![App Screenshot](./src/assets/screenshot.png)
+
+---
 
 ## 🌟 Features
 
@@ -14,9 +23,6 @@ A modern, responsive single-page portfolio application built with **React** and 
   - **CV/Resume** – Professional experience and downloadable resume  
   - **Contact** – Contact form and social media links  
 
-## 🚀 Live Demo
-
-[View Live Portfolio](https://new-portfolio-one-brown.vercel.app/)
 
 ## 🛠️ Technologies Used
 
