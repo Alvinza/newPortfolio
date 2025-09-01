@@ -10,7 +10,6 @@ A modern, responsive single-page portfolio application built with **React** and 
 ![App Screenshot](./src/assets/screenshot.png)
 
 ---
-
 ## 🌟 Features
 
 - **Single Page Application**: Smooth navigation between sections without page reloads  
