@@ -24,27 +24,28 @@ const Achievements = () => {
     },
   ];
   
-  // Array of accomplishments data
-  const accomplishments = [
-    {
-      id: 1,
-      title: "E-commerce Platform Development",
-      description:
-        "Led the development of a custom e-commerce solution that increased client's online sales by 45% in the first quarter after launch. Implemented secure payment processing, inventory management, and a responsive mobile-first design.",
-    },
-    {
-      id: 2,
-      title: "Web Application Performance Optimization",
-      description:
-        "Optimized load time for a high-traffic web application, reducing initial load time by 60% and improving Lighthouse performance score from 67 to 94. Implemented code splitting, lazy loading, and image optimization techniques.",
-    },
-    {
-      id: 3,
-      title: "Open Source Contribution",
-      description:
-        "Contributed to several open source projects, including a popular React component library where my pull requests for accessibility improvements were merged and are now benefiting thousands of developers.",
-    },
-  ];
+// Array of accomplishments data
+const accomplishments = [
+  {
+    id: 1,
+    title: "Full Stack Web Development Graduate",
+    description:
+      "Successfully completed HyperionDev’s intensive Full Stack Web Development program in 2024, gaining hands-on experience in building responsive, user-friendly web applications using the MERN stack.",
+  },
+  {
+    id: 2,
+    title: "Web Application Performance Optimization",
+    description:
+      "Improved website performance through code splitting, lazy loading, and image optimization, achieving faster load times and higher Lighthouse performance scores.",
+  },
+  {
+    id: 3,
+    title: "Practical Problem-Solving",
+    description:
+      "Applied modern development practices such as Git/GitHub version control, debugging, and clean coding principles to solve real-world coding challenges and deliver reliable web solutions.",
+  },
+];
+
 
   return (
     <section
