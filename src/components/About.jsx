@@ -16,11 +16,18 @@ const About = () => (
       {/* About Card */}
       <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-md transition-colors duration-300 ">
         <p className=" dark:text-gray-300 text-lg mb-8 leading-relaxed text-black">
-          I'm a Full Stack Developer who loves JavaScript, React, and clean
-          code. I build scalable apps that solve real problems. With experience
-          in both frontend and backend technologies, I enjoy creating responsive
-          and performant web applications that deliver exceptional user
-          experiences.
+          What excites me most about development is solving problems and turning ideas into working solutions.
+          I enjoy taking on challenges that push me to think critically and apply 
+          both creative and technical skills.
+        </p>
+         <p className=" dark:text-gray-300 text-lg mb-8 leading-relaxed text-black">
+          Beyond writing clean and efficient code, I’m passionate about solving real-world problems through technology.
+           My strengths include working with modern frameworks like React, Node.js, and Express, 
+           as well as creating responsive, performance-driven designs with tools like Tailwind CSS and Bootstrap.
+        </p>
+         <p className=" dark:text-gray-300 text-lg mb-8 leading-relaxed text-black">
+          I’m constantly learning and improving my skills, with the goal of growing into a developer
+           who not only builds scalable applications but also contributes to innovative solutions that make a real impact.
         </p>
 
         {/* Skills list */}
