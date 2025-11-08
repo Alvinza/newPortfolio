@@ -6,7 +6,7 @@ import { FaDownload } from "react-icons/fa"; // Icon
 const About = () => (
   <section
     id="about"
-    className="min-h-screen flex items-center justify-center px-4 py-16 bg-gray-100 dark:bg-gray-900 transition-colors duration-300"
+    className="min-h-screen flex items-center justify-center px-4 py-16 bg-gray-100 dark:bg-zinc-950 transition-colors duration-300"
   >
     <div className="max-w-3xl text-center">
       <h2 className="text-4xl font-bold mb-6 text-blue-600 dark:text-blue-400">
