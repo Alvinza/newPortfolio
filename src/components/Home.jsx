@@ -31,7 +31,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col items-center justify-center text-center px-4 bg-gray-100 dark:bg-gray-900 
+      className="min-h-screen flex flex-col items-center justify-center text-center px-4 bg-gray-100 dark:bg-zinc-950 
       transition-colors duration-300"
     >
       <div className="max-w-3xl">
