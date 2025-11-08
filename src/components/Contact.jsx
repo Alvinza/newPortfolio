@@ -54,7 +54,7 @@ const Contact = () => {
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true }}
       id="contact"
-      className="min-h-screen flex items-center justify-center px-4 py-16 bg-gray-100 dark:bg-gray-900 transition-colors duration-300"
+      className="min-h-screen flex items-center justify-center px-4 py-16 bg-gray-100 dark:bg-zinc-950 transition-colors duration-300"
     >
       <div className="max-w-6xl mx-auto w-full">
         {/* Section title */}
