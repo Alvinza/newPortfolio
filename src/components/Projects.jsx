@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="min-h-screen px-4 py-12 bg-gray-100 dark:bg-gray-900 transition-colors duration-300"
+      className="min-h-screen px-4 py-12 bg-gray-100 dark:bg-zinc-950 transition-colors duration-300"
     >
       <h2 className="mt-5 text-3xl font-bold text-center mb-8 text-blue-600 dark:text-blue-400">
         Projects
