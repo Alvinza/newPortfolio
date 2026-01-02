@@ -37,7 +37,7 @@ const Home = () => {
       <div className="max-w-3xl">
         <img
           src={profile}
-          alt="Alvin Zondi"
+          alt="Alvin Zondi Profile picture"
           className="w-64 h-64 md:w-72 md:h-72 rounded-full mb-4 border-2 border-blue-600 dark:border-blue-400 mx-auto"
         />
 
