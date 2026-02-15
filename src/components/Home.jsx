@@ -62,9 +62,9 @@ const Home = () => {
         </h2>
 
         <p className="mt-4 mb-8 max-w-lg text-gray-700 dark:text-gray-300 mx-auto text-lg">
-          I’m a Full Stack Developer from Cape Town, passionate about crafting seamless digital experiences. 
-          With a strong foundation in the MERN stack, I focus on creating efficient, 
-          high-performance applications that solve real problems and deliver value.
+          I'm a Full Stack Developer based in Cape Town, dedicated to building seamless digital experiences. 
+          With expertise in the MERN stack, I specialize in creating efficient, 
+          high-performance applications that solve real-world problems and drive meaningful value.
         </p>
 
           {/* Social links */}
